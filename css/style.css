@@ -1,0 +1,165 @@
+
+
+
+/* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
+.service_icon_bg_1 {
+  background-image: url(../img/service/service_icon_bg_1.html);
+}
+
+/* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
+.service_area {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  /* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
+  .service_area {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
+  .service_area {
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+
+  h1:hover .onair_p{
+    opacity: 1;
+  }
+  iframe{
+    height: auto !important;
+    margin-top: 29px;
+  }
+}
+
+/* line 15, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
+.service_area .single_service {
+  padding: 10px;
+  border: 1px solid #D4AF37;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 21, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
+.service_area .single_service .service_thumb {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: auto;
+}
+
+/* line 29, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
+/* .service_area .single_service .service_thumb .service_icon img {
+  width: auto;
+} */
+
+/* line 35, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
+.service_area .single_service .service_content h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 43px;
+  margin-bottom: 22px;
+}
+
+/* line 41, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
+.service_area .single_service .service_content p {
+  margin-bottom: 0;
+}
+
+/* line 45, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
+.service_area .single_service:hover {
+  -webkit-box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+  -moz-box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+  box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+  border: 1px solid transparent;
+}
+
+
+
+.button {
+  background-color: #FF0000; 
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: bold;
+  display: inline-block;
+  font-size: 48px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+.button1 {border-radius: 30px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+.service_icon{
+  width:100%;
+}
+.service_icon img{
+  width:100%;
+}
+.student_img img {
+  width: 100%;
+}
+.student_im_left img{
+  width:100%;
+}
+.onair{
+  cursor: pointer;
+}
+.onair_p{
+  height: 116px;
+    position: absolute;
+    width: 96%;
+    top: 2px;
+    border-radius: 48px;
+    display:block !important;
+    opacity: 0;
+}
+
+iframe{
+  height: auto !important;
+  margin-top: 29px;
+}
+body > div > div.player.player--small.player--rounded > div{
+  width: 100% !important;
+  height: 105px !important;
+}
+.onair_p.wrap{
+  width: 100% !important;
+  height: 105px !important;
+}
+
+.onair_p > iframe > html > body > div > div.player.player--small.player--rounded > div{
+  width: 100% !important;
+  height: 105px !important;
+}
+h1:hover .onair_p{
+  opacity: 1;
+}
+@media (max-width: 767px) {
+  h1:hover .onair_p{
+    opacity: 1;
+  }
+  iframe{
+    height: auto !important;
+    margin-top: 29px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .service_content p {
+    font-size: 16px !important;
+  }
+}
